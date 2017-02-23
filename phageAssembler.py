@@ -8,18 +8,17 @@ Requires python2.7+ for the argparse module.
 Arguments:
 	fastq      		# Required. The file of reads in fastq format.
         genome_name		# Optional. Specify the name of this genome. Default will be the input fastq file before any special characters.
-        num_reads		# Optional. Number of reads to try assembling.  Default: 100000.
+        num_reads		# Optional. Number of reads to try assembling.  Default: 80000.
         adapter_list		# Optional. Specify a file of adapters to use.  Default: Adapters.txt
 
 """
 
-PATH_TO_NEWBLER = "/home/seafaculty/454/bin/"
-#PATH_TO_ACEUTIL = "/opt/AceUtil/aceUtil.pub/"
-PATH_TO_ACEUTIL = "/media/sf_VMShare/"
-DEFAULT_NUM_READS = 100000
+PATH_TO_NEWBLER = "~/454/bin/"
+PATH_TO_ACEUTIL = "~/phageAssembler/AceUtil"
+DEFAULT_NUM_READS = 80000
 DEFAULT_READ_LENGTH = 140
-DEFAULT_ADAPTER_LIST = "/media/sf_VMShare/Adapters.fasta"
-DEFAULT_BLAST_DATABASE = "/media/sf_VMShare/Acti_DB"
+DEFAULT_ADAPTER_LIST = "~/phageAssembler/Adapters/Adapters.fasta"
+DEFAULT_BLAST_DATABASE = "~/phageAssembler/BLASTdbs/Actino_DB"
 
 #from datetime import datetime
 import subprocess
