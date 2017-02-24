@@ -1,9 +1,22 @@
 # phageAssembler
 A python script to do some of the repetitive steps of phage genome assembly and quality control.
 
-## What it Does
+## Quick Start
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Within seafaculty account on the 2017 (or later) SEA VM, open a terminal to the home directory and enter the following commands, one at a time, inputting passwords and selecting default values where appropriate.
+
+```
+sudo apt-get install python-dev
+sudo pip install biopython
+git clone https://github.com/Danos2000/phageAssembler
+sudo cp ~/phageAssembler/phageAssembler.py /usr/local/bin/
+```
+
+If everything worked, type the following command, and you should get an "error: too few arguments".  You're ready to assemble, and can skip ahead to Usage.
+
+```
+phageAssembler.py
+```
 
 ### Prerequisites
 
