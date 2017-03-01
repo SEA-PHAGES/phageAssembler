@@ -3,13 +3,16 @@ A python script to do some of the repetitive steps of phage genome assembly and 
 
 ## Quick Start
 
-Within seafaculty account on the 2017 (or later) SEA VM, open a terminal to the home directory and enter the following commands, one at a time, inputting passwords and selecting default values where appropriate.
+Open the **seafaculty** account on the 2017 (or later) SEA VM, and make sure you are connected to the internet.  
+
+Open a terminal to the home directory and enter the following commands, one at a time, inputting passwords and selecting default values where appropriate.
 
 ```
 sudo apt-get install python-dev
 sudo pip install biopython
 git clone https://github.com/Danos2000/phageAssembler
 sudo cp ~/phageAssembler/phageAssembler.py /usr/local/bin/
+sudo chmod +x /usr/local/bin/phageAssembler.py
 ```
 
 If everything worked, type the following command, and you should get an "error: too few arguments".  You're ready to assemble, and can skip ahead to Usage.
