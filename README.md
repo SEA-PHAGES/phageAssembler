@@ -68,7 +68,10 @@ Again, it should result in an error for too few arguments.
 
 ### Usage
 
-
+Open a terminal, and navigate to, for example, the Desktop.
+```
+phageAssembler.py -n 80000 MyPhageGenome_AllReads.fastq
+```
 
 ### Issues
 
